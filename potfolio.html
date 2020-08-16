@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bikcraft - Portfólio</title>
+  <!--title: Máximo de 70 caract -->
+  <meta name="description" content="Descrição personalizada para a página"> <!--description: Máximo de 140 caract -->
+
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Bikcraft - Contato"/>
+  <meta property="og:description" content="Descrição personalizada para a página"/>
+  <meta property="og:url" content="htt://bikcraft.com/portfolio.html"/>        <!--html da pag-->
+  <meta property="og:image" content="http://bikcraft.com/img/og-image.png"/>
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="style-compress.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+  <!--HEADER-->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="img/bikcraft.svg" alt="bikcraft">
+      </a>
+      <nav class="header_menu grid-12">
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="potfolio.html" class="menu_ativo">Portfólio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--INTRODUCAO INTERNA-->
+  <section class="introducao-interna interna_portfolio">
+    <div class="container">
+      <h1 data-anime="400" class="fadeInDown">Portfólio</h1>                                           <!--JAVASCRIPT-->
+      <p data-anime="800" class="fadeInDown">conheça os projetos que amamos mostrar</p>                <!--JAVASCRIPT-->
+    </div>
+  </section>
+
+  <!--QUOTE--> 
+  <section class="container fadeInDown" data-slide="quote" data-anime="1200">                           <!--JAVASCRIPT-->
+    <blockquote class="quote_clientes">
+      <p>"No mundo atual, a contínua expansão da nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
+      <cite>Barbara Moss</cite>
+    </blockquote>
+
+    <blockquote class="quote_clientes">
+      <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quis, delectus recusandae doloremque ratione corrupti aliquid saepe quos"</p>
+      <cite>Lucas Jurado</cite>
+    </blockquote>
+
+    <blockquote class="quote_clientes">
+      <p>"Pariatur est dolores excepturi tenetur eos numquam doloremque quam ex, quae dolorem nulla eveniet amet architecto debitis cupiditate officia voluptas voluptatem!"</p>
+      <cite>Ricardo Roberto</cite>
+    </blockquote>
+  </section>
+
+<!--PORTIFOLIO-->
+<section class="portfolio">
+  <div class="container" data-slide="portfolio">   <!--JAVASCRIPT-->
+    <ul class="portfolio_lista">
+      <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="bicicleta retro"></li>
+      <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="bicicleta passeio"></li>
+      <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="bicicleta esporte"></li>
+    </ul>
+    <ul class="portfolio_lista">
+      <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="bicicleta passeio"></li>
+      <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="bicicleta retro"></li>
+      <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="bicicleta esporte"></li>
+    </ul>
+  </div>
+</section>
+  
+
+  <!--QUEBRA-->
+  <div class="quebra">
+    <blockquote class="quote-externo container">
+      <p>"O verdadeiro segredo da felicidade está em ter um genuíno
+        interesse por todos os detalhes da vida cotidiana"
+      </p>
+      <cite>WILLIAN MORRIS</cite>
+    </blockquote>
+  </div>
+
+  <!--FOOTER-->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="grid-8 footer_historia">
+          <h3>Nossa História</h3>
+          <p>"O verdadeiro segredo da felicidade está em ter um genuíno
+            interesse por todos os detalhes da vida cotidiana um genuíno
+            interesse por todos os detalhes da vida cotidiana"</p>
+        </div>
+        <div class="grid-4 footer_contato">
+          <h3>Contato</h3>
+          <ul>
+            <li>- 11 9999-9999</li>
+            <li>- contato@bikecraft.com</li>
+            <li>- Melbourn, Australia</li>
+          </ul>
+        </div>
+        <div class="grid-4 footer_redes">
+          <h3>Redes Sociais</h3>
+          <ul>
+            <li><a href="http://www.facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="facebook"></a></li>
+            <li><a href="http://www.instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="instagram"></a></li>
+            <li><a href="http://www.twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="twitter"></a></li>    
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--COPYRIGHT-->
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">Bikcraft&#174; 2020 - Alguns direitos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/script.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174933479-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+  
+      gtag('config', 'UA-174933479-1');
+    </script>
+
+</body>
+</html>
